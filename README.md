@@ -1,4 +1,4 @@
-# terraspace
+# terraspaces
 
 Experiment to replace [terragrunt](https://github.com/gruntwork-io/terragrunt) as a lightweight wrapper for terraform.
 
@@ -10,8 +10,8 @@ Experiment to replace [terragrunt](https://github.com/gruntwork-io/terragrunt) a
 
 ## Usage
 
-    curl https://raw.githubusercontent.com/kristofferahl/terraspace/master/terraspace.sh > ./terraspace.sh
-    source ./terraspace.sh
+    curl https://raw.githubusercontent.com/kristofferahl/terraspaces/master/terraspaces.sh > ./terraspaces.sh
+    source ./terraspaces.sh
 
     cd <path to terraform files>
     terraspace workspace select <workspace>
