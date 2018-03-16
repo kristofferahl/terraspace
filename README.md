@@ -16,3 +16,12 @@ Experiment to replace [terragrunt](https://github.com/gruntwork-io/terragrunt) a
     cd <path to terraform files>
     terraspace workspace select <workspace>
     terraspace <terraform command>
+
+## Example
+
+To try out the example, follow the steps below.
+
+    source ./terraspaces.sh
+    cd ./example
+    terraspace workspace new stage
+    terraspace plan
