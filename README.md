@@ -8,10 +8,12 @@ Experiment to replace [terragrunt](https://github.com/gruntwork-io/terragrunt) a
 - Supports loading variables based on the current workspace
 - Supports sourcing of secrets based on the current workspace
 
-## Usage
+## Setup
 
     curl https://raw.githubusercontent.com/kristofferahl/terraspaces/master/terraspaces.sh > ./terraspaces.sh
     source ./terraspaces.sh
+
+## Usage
 
     cd <path to terraform files>
     terraspace workspace select <workspace>
